@@ -12,7 +12,7 @@ body {
 
 /* For Nav Start Here */
 nav {
-    background-image: url(/Day\ 4/assets/images/navbar3.png);
+    background-image: url(assets/images/navbar3.png);
     display: flex;
     height: 10vh;
 }
@@ -65,7 +65,7 @@ nav .left li {
 /* For Left Section Start Here */
 
 .container {
-    background-image: url(/Day\ 4/assets/images/bg-container.png);
+    background-image: url(assets/images/bg-container.png);
     /* background-position: 100%; */
     /* width: 100%; */
     height: 90vh;

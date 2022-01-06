@@ -12,7 +12,7 @@ body {
 
 /* For Nav Start Here */
 nav {
-  background-image: url(/Day\ 4/assets/images/navbar3.png);
+  background-image: url(assets/images/navbar3.png);
   display: flex;
   height: 10vh;
 }
