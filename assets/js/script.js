@@ -28,12 +28,43 @@ function addBlog(event) {
 
     console.log(blogs)
 
+    // renderBlog()
+}
+
+function firstBlogContent() {
+  return `<div class="blog-list-item">
+           <div class="blog-image">
+             <img src="assets/images/blog-img.png" alt="" />
+           </div>
+           <div class="blog-content">
+               <div class="btn-group">
+                 <button class="btn-edit">Edit Post</button>
+                 <button class="btn-post">Post Blog</button>
+               </div>
+               <h1>
+                 <a href="blog-detail.html" target="_blank"
+                 >Pasar Coding di Indonesia Dinilai Masih Menjanjikan</a>
+               </h1>
+               <div class="detail-blog-content">
+               12 Jul 2021 22:30 WIB | Ichsan Emrald Alamsyah
+               </div>
+               <p>
+               Ketimpangan sumber daya manusia (SDM) di sektor digital masih
+               menjadi isu yang belum terpecahkan. Berdasarkan penelitian
+               ManpowerGroup, ketimpangan SDM global, termasuk Indonesia,
+               meningkat dua kali lipat dalam satu dekade terakhir. Lorem ipsum,
+               dolor sit amet consectetur adipisicing elit. Quam, molestiae
+               numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta,
+               eligendi debitis?
+               </p>
+         </div>
+     </div>`
 }
 
 function renderBlog() {
   let contentContainer = document.getElementById('contents')
 
-  contentContainer.innerHTML = ''
+  contentContainer.innerHTML = firstBlogContent()
 
   for (let i = 0; i < blogs.length; i++) {
       contentContainer.innerHTML += `<div class="blog-list-item">
@@ -65,6 +96,7 @@ function renderBlog() {
     </div>`
   }
 }
+
 
 // fungsi print date
 let month = ['January', 'February', 'March', 'April', 'May', ' June', 'July', 'August', 'September', 'October', 'November', 'December']
