@@ -6,6 +6,7 @@
 
 /* For Body Start Here*/
 body {
+  background-image: url(../images/bg-container.png);
   margin: 0;
 }
 /* For Body End Here */
@@ -63,7 +64,6 @@ nav .left li {
 
 /* Blog Form */
 .blog-form {
-  background-image: url(../images/bg-container.png);
   padding: 50px 0;
   display: flex;
   justify-content: center;
@@ -141,6 +141,7 @@ select {
 }
 
 .blog hr {
+  
   border: 1px solid #dbdbdb;
   width: 80%;
   margin-right: auto;

@@ -6,6 +6,7 @@
 
 /* For Body Start Here*/
 body {
+    background-image: url(../images/bg-container.png);
     margin: 0;
 }
 /* For Body End Here */
@@ -65,7 +66,6 @@ nav .left li {
 /* For Left Section Start Here */
 
 .container {
-    background-image: url(../images/bg-container.png);
     /* background-position: 100%; */
     /* width: 100%; */
     height: 90vh;
