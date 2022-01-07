@@ -9,10 +9,10 @@ function addBlog(event) {
     let title = document.getElementById('input-blog-title').value
     let content = document.getElementById('input-blog-content').value
 
-    // .files menangkap data yang ada di file, sedangkan .value hanya menangkap gambar
+
     let image = document.getElementById('input-blog-image').files 
 
-    // url.createdObjectURL untuk membungkus url image agar tidak dapat terbaca oleh orang lain dan dapat di akses 
+  
     image = URL.createObjectURL(image[0])
 
     let blog = {

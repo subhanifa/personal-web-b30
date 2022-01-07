@@ -1,26 +1,20 @@
 function submitData(){
     
+    // Variabel Untuk Input
     let name = document.getElementById('input-name').value
     let email = document.getElementById('input-email').value
     let number = document.getElementById('input-number').value
     let subject = document.getElementById('input-subject').value
     let message = document.getElementById('input-message').value
 
-    // Bisa menggunaakan cara ini
-    // let skillHtml = document.querySelector('#html:checked').value 
-    // let skillCss = document.querySelector('#css:checked').value
-
-    // Bisa menggunakan cara ini juga
-    // variabel untuk menampung tag checkbox yang di ceklis
+    // Variabel Untuk Checkbox
     let skillHtml =  document.getElementById('html').checked
     let skillCss =  document.getElementById('css').checked
     let skillJs =  document.getElementById('javaScript').checked
     
-    // kondisi untuk mengecek apakah checkbox di ceklis, kalau di ceklis maka tampilkan valuenya
+    // Create Condition Checkbox
     if (skillHtml) {
         skillHtml = (document.getElementById('html').value);
-        
-    // jika tidak di ceklis maka tampilkan string kosong 
     } else {
         skillHtml = ""
     } 
@@ -46,11 +40,7 @@ function submitData(){
     console.log(skillCss);
     console.log(skillJs);
 
-
-
-
-    // condition
-
+    // Create Condition Input
     if (name == ''){
         return alert("All Field must be filled")
     } else if (email == '') {
