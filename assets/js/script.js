@@ -94,6 +94,11 @@ function firstBlogContent() {
                 numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta,
                 eligendi debitis?
                 </p>
+                <div style="text-align: right;">
+                <span>
+                  1 Day Ago
+                </span>
+              </div>
           </div>
       </div>`
 }
