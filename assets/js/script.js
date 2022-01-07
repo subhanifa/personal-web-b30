@@ -168,4 +168,4 @@ function getDistanceTime(time) {
 setInterval(() => {
   // console.log('hello');
   renderBlog()
-}, 5000)
+}, 3000)
