@@ -141,7 +141,7 @@ function getDistanceTime(time) {
   let distanceMinutes = Math.floor (distance / (milisecond * second))
   let distanceSecond = Math.floor (distance / milisecond)
 
-  distanceDay = Math.floor(distanceDay)
+  // distanceDay = Math.floor(distanceDay)
 
 
   // Create Condition
