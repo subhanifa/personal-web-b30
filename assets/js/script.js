@@ -23,7 +23,6 @@ function addBlog(event) {
         postAt: new Date()
     }
 
-    // fungsi .push adalah untuk memasukan suatu variabel pada penampung
     blogs.push(blog)
 
     console.log(blogs)
