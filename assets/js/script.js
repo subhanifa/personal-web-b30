@@ -37,7 +37,7 @@ function renderBlog() {
   contentContainer.innerHTML = firstBlogContent()
   
   for (let i = 0; i < blogs.length; i++) {
-    contentContainer.innerHTML = `<div class="blog-list-item">
+    contentContainer.innerHTML += `<div class="blog-list-item">
     <div class="blog-image">
     <img src="${blogs[i].image}" alt="" />
     </div>
